@@ -38,3 +38,6 @@ note over server: get reponse piece by pice and convert to a whole named {body}\
 server ->user:call res.end(display message) write to the page and close the connection \n else{ not_found(res)}
 
 note over user,server: all finished
+![HumorJoke MeowFact](https://github.com/XingHang0921/APIs-without-Racing/assets/110357111/3889712c-55be-44bb-98a4-832fb8f4a894)
+
+
