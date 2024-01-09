@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cat Fact && Humor Joke</title>
+    <style>
+        body,
+        form {
+            margin: 20px auto;
+            max-width: 800px;
+            overflow-x: hidden;
+        }
+
+        fieldset {
+            display: flex;
+        }
+
+        input#description {
+            flex-grow: 50;
+            margin: 0 20px;
+        }
+
+        input#location {
+            flex-grow: 50;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>To get Joke and Fact</h1>
+    <form action="search" method="get">
+        <label for="key">Key Word of Joke:</label>
+        <input id="keyword" name="keyword" type="text" placeholder="Enter a key word for your joke" size="25px">
+        <input type="submit" value="Enter" />
+    </form>
+</body>
+
+</html>
