@@ -4,7 +4,6 @@ const https = require("https");
 const crypto = require("crypto");
 
 const credentials = require("./auth/credentials.json");
-// joke_api_key = "789970a5ff1f4b0dbc775b89e6d90dde";
 const port = 3000;
 const all_sessions = []; //global array
 const server = http.createServer();
